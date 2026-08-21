@@ -43,6 +43,6 @@ int main()
     { printf("grade D\n");}
     else
     { printf("fail\n");}
-    return 0;
-    }
+    return 1;
+}
 
