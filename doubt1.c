@@ -5,18 +5,18 @@ int main()
     char gender;
     int rollno;
     float sub1,sub2,sub3,total,percentage;
-    printf("enter your name\n");
+    printf("enter your name");
     scanf("%s",name);
-    printf("enter your gender in M or F:\n");
-    scanf("  %c",&gender);
-    printf("enter your roll number\n");
+    printf("enter your gender in M or F:");
+    scanf(" %c",&gender);
+    printf("enter your roll number");
     scanf("%d",&rollno);
-    printf("enter marks of three subjects\n");
-    printf("enter a subject 1 marks :\n");
+    printf("enter marks of three subjects");
+    printf("enter a subject 1 marks :");
     scanf("%f",&sub1);
-    printf("enter a subject 2 marks :\n");
+    printf("enter a subject 2 marks :");
     scanf("%f",&sub2);
-    printf("enter a subject 3 marks :\n");
+    printf("enter a subject 3 marks :");
     scanf("%f",&sub3);
     total=sub1+sub2+sub3;
     percentage=(total/300)*100;
@@ -30,12 +30,10 @@ int main()
     printf("TOTAL MARKS:%f\n",total);
     printf("PERCENTAGE:%f\n",percentage);
     if(percentage>=90)
-    {
-        if(percentage>=95)
+    { if(percentage>=95)
         {printf("grade A+\n");}
         else
-        {printf("grade A\n");}
-    }
+        {printf("grade A\n");} }
     else if(percentage>=80)
     { printf("grade B\n");}
     else if(percentage>=70)
