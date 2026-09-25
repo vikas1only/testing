@@ -1,15 +1,17 @@
-//write a program to even and odd number.
-#include<stdio.h>
+// Write a program to check whether a number is even or odd.
+#include <stdio.h>
+
 int main() {
-    int a;
-    printf("enter a numbre");
-    scanf("%d",&a);
-    if (a%2==0){
-        printf("even nunber");
+    int num;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if (num % 2 == 0) {
+        printf("%d is an even number.\n", num);
+    } else {
+        printf("%d is an odd number.\n", num);
     }
-    else{
-        printf("odd number\n");
-    
-    }
+
     return 0;
 }
